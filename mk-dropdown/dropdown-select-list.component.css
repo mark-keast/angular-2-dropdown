@@ -1,0 +1,74 @@
+.dropdown-select-list {
+    position: relative;
+}
+
+.dropdown-select-list-arrow {
+    position: absolute;
+    right: 3px;
+    top: -1px;
+    color: #bdbdbd !important;
+    padding:10px 0px 10px 10px;
+}
+.link .dropdown-select-list-arrow {
+    display: none;
+}
+.link.defaultLink .dropdown-select-list-arrow {
+    display: block;
+}
+.link .dropdown-select-list-arrow.ShownArrow {
+    display: block;
+}
+
+.ShownArrow {
+    /* color:#fff !important;  */
+    z-index:2; 
+}
+.select-list  {
+    display:flex;
+    flex-direction: column;
+    order: 2;
+
+    /* extra for external */
+        border: solid 1px #dedede;
+        border-radius: 4px;
+        padding: 8px;
+}
+.select-list .link {
+    position: absolute;
+    left:-99999px;
+    order: 2;
+    border-top:none;
+}
+.select-list a {
+    padding:5px;
+    display:block;
+}
+.select-list .defaultLink {
+    display: block;
+    position: relative;
+    left:0px;      
+    order:1;
+}
+.select-list .link.defaultLink.toggleList {    
+    /* extra for external */
+        border-top: none;   
+}
+.select-list .link.toggleList {
+    display:block;
+    position: relative;
+    left:0px;    
+    /* extra for external */
+        border-top: solid 1px #dedede;
+}
+.select-list .link.toggleList a {
+    /*border-top:none;*/
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.select-list .defaultLink.toggleList a{
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+

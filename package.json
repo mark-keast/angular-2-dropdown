@@ -1,0 +1,23 @@
+{
+  "name": "angular-2-dropdown",
+  "version": "1.0.0",
+  "description": "angular_dropdown",
+  "main": "dropdown.module.ts",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/mark-keast/angular-2-dropdown"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "2",
+    "angular",
+    "2",
+    "dropdown",
+    "dropdown"
+  ],
+  "author": "Mark Keast",
+  "license": "MIT"
+}
