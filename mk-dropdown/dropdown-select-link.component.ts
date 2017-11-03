@@ -1,5 +1,5 @@
 import { DropdownSelectListComponent } from './dropdown-select-list.component';
-import { Component, Input, ElementRef, Renderer2, AfterViewInit, SimpleChanges, OnChanges } from '@angular/core';
+import { Component, Input, ElementRef, Renderer2, AfterViewInit, SimpleChanges } from '@angular/core';
 
 @Component({
     moduleId: module.id,
@@ -13,7 +13,7 @@ import { Component, Input, ElementRef, Renderer2, AfterViewInit, SimpleChanges, 
     </div>
     `
 })
-export class DropdownSelectLinkComponent implements AfterViewInit, OnChanges {
+export class DropdownSelectLinkComponent implements AfterViewInit {
     @Input('default') default:boolean = false;
     // @Input('active') active:boolean = false;
 
