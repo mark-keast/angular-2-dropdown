@@ -1,10 +1,10 @@
 # Angular Dropdown
 
-An npm Package Angualr 2 Dropdown.
+An npm Package Angular 2 Dropdown.
 
 ## Basic Usage
 
-This example has four accordion's
+This example has four links's in the dropdown
 ```html
  
   <dropdown-select-list>
@@ -75,7 +75,7 @@ export class SharedModule {
 
 ## Make sure component has the Shared module.
 
-Add to the Shared module to page requiring the accordian (eg AboutComponent)
+Add to the Shared module to page requiring the dropdown (eg AboutComponent)
 ```html
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -91,7 +91,7 @@ export class AboutModule { }
 
 ```
 
-## Html rendering of accordian on About page.
+## Html rendering of dropdown on About page.
 
 Html to page.
 ```html
